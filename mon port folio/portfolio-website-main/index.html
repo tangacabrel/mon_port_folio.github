@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Personal Portfolio - MBOZEKO TANGA Cabrel brelo </title>
+         <link rel="stylesheet" href="css/style.css" />
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Témoignages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">
+          <a href="#contact" style="text-decoration: none; color: #fff;">Contact</a>
+        </button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Salut ! je suis <br /><span class="c-orange">MBOZEKO TANGA Cabrel Berlo</span>
+          </h2>
+          <p class="text-muted">
+            Je suis Web Designer, Community Manager et Spécialiste en Marketing Digital. Ma maîtrise
+            du Web Design, du Community Management et du Marketing Digital me permet de bâtir une présence
+            en ligne cohérente, esthétique et génératrice de résultats mesurables.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            <a href="#contact" style="text-decoration: none; color: #fff;">Recrutez-moi</a>
+          </button>
+          <a href="#about" class="link ms-4">Voir mes compétences</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/banner-01.webp" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>Mon Experience</small>
+        <h3>
+          Offrir une large gamme de services numériques <br />
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon1.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Design</h4>
+              <p class="text-muted">
+                Création de sites web uniques, modernes et esthétiques, alliant ergonomie et performance
+                 pour offrir une expérience utilisateur exceptionnelle.
+              </p>
+              <a href="#portfolio" class="link">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon2.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Community Manager</h4>
+              <p class="text-muted">
+                Gestion stratégique des réseaux sociaux pour animer les 
+                communautés, booster la visibilité et fidéliser nos différents clients.
+              </p>
+              <a href="#portfolio" class="link">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="images/service-icon3.png"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Marketing Digital</h4>
+              <p class="text-muted">
+                Déploiement de stratégies publicitaires pour booster votre visibilité
+                 en ligne, générer des leads qualifiés et maximiser vos ventes.
+              </p>
+              <a href="#portfolio" class="link">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">HTML, CSS & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress figma">
+                  <span class="progress-value figma-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Figma</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">0%</span>
+                </div>
+                <br />
+                <span class="text">Canva</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">0%</span>
+                </div>
+                <br>
+                <span class="text"> Suite Adobe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>Mes compétances</small>
+            <h3>Des expériences numériques magnifiques  &  uniques</h3>
+            <p class="text-muted">
+              Fort de plusieurs années de pratique, je conçois des interfaces web modernes
+              sur Figma avant de les intégrer en HTML, CSS et JavaScript, tout en assurant
+              une gestion efficace des réseaux sociaux pour mes clients.
+            </p>
+            <p class="text-muted">
+              Chaque projet est pensé pour allier esthétique, ergonomie et résultats concrets :
+              plus de visibilité, plus d'engagement et plus de conversions pour votre activité.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Entry Level Web Developer Resume.pdf"
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Travail créatif</small>
+        <h3>Découvrez mon portfolio</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="uiux">UI/UX</button>
+        <button class="filter-item" data-filter="game">Game</button>
+        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="website">Website</button>
+        <button class="filter-item" data-filter="brand">Brand</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 uiux all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <div class="card-img-top d-flex align-items-center justify-content-center" style="height:220px;background:linear-gradient(135deg,#6f34fe,#a78bfa);">
+                <i class="bi bi-figma text-white" style="font-size:3.5rem;"></i>
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title">Application de Livraison</h4>
+                <span class="badge bg-secondary badge-pill">Figma</span>
+                <span class="badge bg-secondary badge-pill">UI/UX Design</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <a href="https://www.figma.com/design/GUdDpdF7NAvuOH0PK1SxfL/ma-maquette-d-application-web-de-livreson?node-id=0-1" target="_blank" rel="noopener" class="link">Consulter</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 uiux all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <div class="card-img-top d-flex align-items-center justify-content-center" style="height:220px;background:linear-gradient(135deg,#fca61f,#ffd08a);">
+                <i class="bi bi-diagram-3 text-white" style="font-size:3.5rem;"></i>
+              </div>
+              <div class="card-body text-center">
+                <h4 class="card-title">Prototype Navigation Dropdown</h4>
+                <span class="badge bg-secondary badge-pill">Figma</span>
+                <span class="badge bg-secondary badge-pill">Prototypage</span>
+                <span class="badge bg-secondary badge-pill mb-2">UI/UX</span
+                ><br />
+                <a href="https://www.figma.com/design/hBpudhgF4YBEt7udWapyaP/Dropdown-Prototype-Navigation--Community-?node-id=0-1" target="_blank" rel="noopener" class="link">Consulter</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/flyles-preview.png" class="card-img-top" alt="Aperçu du site FlyLes" style="height:220px;object-fit:cover;" />
+              <div class="card-body text-center">
+                <h4 class="card-title">FlyLes — Réservation de Billets d'Avion</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span
+                ><br />
+                <a href="https://fly-les.vercel.app/" target="_blank" rel="noopener" class="link">Consulter</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly px-4 mt-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/2048game.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">2048 Game</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Game</span
+                ><br />
+                <a href="#" class="link">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/currency-converter.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Converter App</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Website</span
+                ><br />
+                <a href="#" class="read-more-btn link">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/dictionary.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Dictionary</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">WebApp</span
+                ><br />
+                <a href="#" class="read-more-btn link">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/piceditor.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">PicEditor App</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">App</span
+                ><br />
+                <a href="#" class="read-more-btn link">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/tictactoe.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">TicTacToe Game</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Game</span
+                ><br />
+                <a href="#" class="read-more-btn link">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/lang-translator.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Lang Translator</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web App</span
+                ><br />
+                <a href="#" class="read-more-btn link">Voir le projet</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Cabrel a conçu le site vitrine de ma boutique en un temps record. Le design est
+                        moderne, simple à utiliser et il a su traduire exactement l'image que je voulais
+                        donner à ma marque. Je recommande vivement !
+                      </p>
+                      <h4>Léa Ngo Mbarga</h4>
+                      <small class="fs-6 text-muted">Fondatrice, Boutique Mode & Style — Douala</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Depuis que Cabrel gère nos réseaux sociaux, l'engagement de notre communauté a
+                        nettement augmenté et nos publications touchent beaucoup plus de clients. Un
+                        vrai professionnel, réactif et force de proposition.
+                      </p>
+                      <h4>Arnaud Fotso</h4>
+                      <small class="fs-6 text-muted">Gérant, Restaurant Le Manioc d'Or — Douala</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        Grâce à sa stratégie de marketing digital, nos campagnes publicitaires nous ont
+                        apporté beaucoup plus de leads qualifiés qu'auparavant. Cabrel est quelqu'un de
+                        sérieux, à l'écoute et toujours dans les délais.
+                      </p>
+                      <h4>Christelle Eyenga</h4>
+                      <small class="fs-6 text-muted">Responsable Marketing, AgroPlus Cameroun — Yaoundé</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <small>Actualités</small>
+        <h3>Blog & Articles</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="images/2048game.png"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>Par MBOZEKO TANGA Cabrel</small
+              ><span class="ms-3">12 Mai 2026</span>
+              <h4 class="card-title">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal1">5 tendances Web Design à connaître en 2026</a>
+              </h4>
+              <p class="text-muted">
+                Découvrez les tendances qui redéfinissent l'expérience utilisateur
+                sur le web cette année.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Lire la suite</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img
+              src="images/currency-converter.png"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>Par MBOZEKO TANGA Cabrel</small
+              ><span class="ms-3">20 Mai 2026</span>
+              <h4 class="card-title">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal2">Community Management : comment fidéliser sa communauté</a>
+              </h4>
+              <p class="text-muted">
+                Les bonnes pratiques pour animer vos réseaux sociaux et transformer
+                vos abonnés en clients fidèles.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Lire la suite</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img
+              src="images/dictionary.png"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>Par MBOZEKO TANGA Cabrel</small
+              ><span class="ms-3">2 Juin 2026</span>
+              <h4 class="card-title">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal3">Marketing Digital : 3 leviers pour booster vos ventes</a>
+              </h4>
+              <p class="text-muted">
+                Trois leviers simples et efficaces pour générer plus de leads
+                qualifiés grâce au marketing digital.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Lire la suite</a>
+            </div>
+          </div>
+        </div>
+        <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/2048game.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>Par MBOZEKO TANGA Cabrel</small
+                    ><span class="text-muted ms-2">12 Mai 2026</span>
+                  <h4 class="card-title mt-3">5 tendances Web Design à connaître en 2026</h4>
+                  <div class="social-links mt-4">
+                      <a href="https://wa.me/237651767056" target="_blank" rel="noopener" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </a>
+                      <a href="mailto:tangacabrel35@gmail.com" class="rounded-pill behance">
+                        <i class="bi bi-envelope-fill"></i>
+                      </a>
+                  </div>
+                  <p class="text-muted mt-3">Le web design évolue vite : minimalisme assumé, animations douces au défilement,
+                    mode sombre par défaut et typographies affirmées dominent les interfaces les plus
+                    récentes. Mais la vraie tendance de fond reste l'accessibilité : des sites rapides,
+                    lisibles sur mobile et pensés pour tous les utilisateurs. En combinant ces éléments
+                    avec une identité visuelle forte, on obtient des sites qui marquent les esprits tout
+                    en restant agréables à utiliser au quotidien.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Laisser un commentaire</h3>
+              </div>
+              <form class="contact-form ms-3 mt-3 pb-4 px-2" action="https://formsubmit.co/tangacabrel35@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nouveau commentaire — Blog Portfolio (Web Design 2026)" />
+                <input type="hidden" name="_captcha" value="false" />
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="blog1Name"
+                    name="Nom"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="blog1Email"
+                    name="Email"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="blog1Phone"
+                    name="Téléphone"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="blog1Message"
+                    name="Commentaire"
+                    placeholder="Message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Soumettre
+                </button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/currency-converter.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>Par MBOZEKO TANGA Cabrel</small
+                    ><span class="text-muted ms-2 ms-md-0">20 Mai 2026</span>
+                  <h4 class="card-title mt-3">Community Management : comment fidéliser sa communauté</h4>
+                  <div class="social-links mt-4">
+                      <a href="https://wa.me/237651767056" target="_blank" rel="noopener" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </a>
+                      <a href="mailto:tangacabrel35@gmail.com" class="rounded-pill behance">
+                        <i class="bi bi-envelope-fill"></i>
+                      </a>
+                  </div>
+                  <p class="text-muted mt-3">Fidéliser une communauté ne se résume pas à publier souvent : il faut surtout
+                    apporter de la valeur et répondre à ses abonnés. Variez les formats (visuels, vidéos
+                    courtes, sondages), gardez un ton authentique et répondez rapidement aux messages et
+                    commentaires. Analysez régulièrement vos statistiques pour comprendre ce qui plaît
+                    vraiment à votre audience et ajustez votre stratégie en conséquence. Une communauté
+                    engagée devient naturellement votre meilleure vitrine commerciale.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Laisser un commentaire</h3>
+              </div>
+              <form class="contact-form ms-3 mt-3 pb-4 px-2" action="https://formsubmit.co/tangacabrel35@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nouveau commentaire — Blog Portfolio (Community Management)" />
+                <input type="hidden" name="_captcha" value="false" />
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="blog2Name"
+                    name="Nom"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="blog2Email"
+                    name="Email"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="blog2Phone"
+                    name="Téléphone"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="blog2Message"
+                    name="Commentaire"
+                    placeholder="Message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Soumettre
+                </button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/dictionary.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>Par MBOZEKO TANGA Cabrel</small
+                    ><span class="text-muted ms-2 ms-md-0">2 Juin 2026</span>
+                  <h4 class="card-title mt-3">Marketing Digital : 3 leviers pour booster vos ventes</h4>
+                  <div class="social-links mt-4">
+                      <a href="https://wa.me/237651767056" target="_blank" rel="noopener" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </a>
+                      <a href="mailto:tangacabrel35@gmail.com" class="rounded-pill behance">
+                        <i class="bi bi-envelope-fill"></i>
+                      </a>
+                  </div>
+                  <p class="text-muted mt-3">Premier levier : des publicités ciblées sur les réseaux sociaux pour toucher
+                    précisément votre clientèle idéale. Deuxième levier : un contenu régulier et utile qui
+                    installe la confiance avant même le premier achat. Troisième levier : le suivi des
+                    performances (clics, conversions, coût par lead) pour réinvestir sur ce qui fonctionne
+                    réellement. Combinés intelligemment, ces trois leviers permettent de générer des ventes
+                    durables plutôt que des pics ponctuels.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Laisser un commentaire</h3>
+              </div>
+              <form class="contact-form ms-3 mt-3 pb-4 px-2" action="https://formsubmit.co/tangacabrel35@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nouveau commentaire — Blog Portfolio (Marketing Digital)" />
+                <input type="hidden" name="_captcha" value="false" />
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="blog3Name"
+                    name="Nom"
+                    placeholder="Name"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="blog3Email"
+                    name="Email"
+                    placeholder="E-mail"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="blog3Phone"
+                    name="Téléphone"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="blog3Message"
+                    name="Commentaire"
+                    placeholder="Message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <button type="submit" class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Soumettre
+                </button>
+              </form>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Cliquez pour me contacter</small>
+        <h3>Pour toute question ou tout projet, n'hésitez pas à me contacter !</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Rue 2003, KM5 - Douala, Cameroun</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+237 651 767 056</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p><a href="mailto:tangacabrel35@gmail.com" style="color:inherit;text-decoration:none;">tangacabrel35@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-whatsapp"></i>
+            </div>
+            <div class="col-11">
+              <p>
+                <a href="https://wa.me/237651767056?text=Bonjour%20Cabrel%2C%20je%20vous%20contacte%20depuis%20votre%20portfolio."
+                   target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">
+                   Discuter sur WhatsApp
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <form class="contact-form" action="https://formsubmit.co/tangacabrel35@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="Nouveau message depuis le Portfolio" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="contactName"
+                name="Nom"
+                placeholder="Nom"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="contactEmail"
+                name="Email"
+                placeholder="E-mail"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="contactPhone"
+                name="Téléphone"
+                placeholder=" N° de téléphone."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="contactMessage"
+                name="Message"
+                placeholder="Message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Soumettre
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Accueil</a>
+        <div class="vr"></div>
+        <a href="#about">A propos</a>
+        <div class="vr"></div>
+        <a href="#service">Services</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <a href="https://wa.me/237651767056" target="_blank" rel="noopener" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="mailto:tangacabrel35@gmail.com" class="rounded-pill behance">
+          <i class="bi bi-envelope-fill"></i>
+        </a>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>© 2026 MBOZEKO TANGA Cabrel — Tous droits réservés.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
